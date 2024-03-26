@@ -1,12 +1,12 @@
-# ZAPISONBOT - Bot de Envio de Mensagens
+# ZAPISONBOT
 
 O ZAPISONBOT é uma ferramenta para automatizar o envio de mensagens em massa no WhatsApp.
 
-![image](https://github.com/pedrobits/ZapisonBOT/assets/70610289/499a76ac-add2-4ef2-80dd-bef54dd61053)
+![278901669-499a76ac-add2-4ef2-80dd-bef54dd61053](https://github.com/pedrobits/ZapisonBOT/assets/70610289/263842ee-0618-471e-9f34-6cca2bac9c73)
 
 ## Instalação
 
-Certifique-se de ter o Yarn ou NPM instalado em seu sistema, pois é o gerenciador de pacotes usado para este projeto.
+Certifique-se de ter o yarn ou npm instalado em seu sistema, pois é o gerenciador de pacotes usado para este projeto.
 
 Use o seguinte comando para instalar os pacotes necessarios:
 
@@ -18,7 +18,7 @@ $ npm install ou npm i
 
 Antes de começar, prepare uma planilha no formato .xlsx ou .csv com a seguinte estrutura:
 
-![Exemplo de Planilha](https://user-images.githubusercontent.com/70610289/226666052-fc6cdf76-0d0f-48e6-8773-99f31a8a9093.png)
+![image](https://github.com/pedrobits/ZapisonBOT/assets/70610289/a76438b3-99bc-485e-a17a-2c035e874504)
 
 A planilha deve conter os nomes e números de telefone dos destinatários das mensagens.
 
@@ -58,7 +58,7 @@ Este projeto é de código aberto e as contribuições são bem-vindas. Sinta-se
 
 ## Atenção
 
-Este projeto deve ser usado com responsabilidade, deve ser usado em conformidade com os termos de uso do whatsapp. (Ocasiona Banimento)
+Este projeto deve ser usado com responsabilidade, deve ser usado em conformidade com os termos de uso do whatsapp. (OBS: Ocasiona Banimento)
 
 ### Aviso Legal
 
