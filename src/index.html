@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Zapison BOT</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="../js/fonts.js"></script>
+  <script src="../js/fileChooseText.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+  <div class="container_Principal">
+    <div class="ApresentationLOGO">
+      <img class="LogoZap" src="./Icon.png" alt="LogoZapsonBot" />
+      <div class="TituloLogo">
+        <span>Zapison<b>BOT</b></span>
+      </div>
+    </div>
+    <div class="filechooser">
+      <label id="nameFile" for="file-upload">Insira a sua planilha.</label>
+      <input id="file-upload" name="File" type="file" />
+    </div>
+    <p id="error-message"></p>
+
+    <div class="mensagem">
+      <span>Olá Fulano,</span>
+      <textarea id="mensagem" placeholder="Insira o texto que será enviado ao cliente."></textarea>
+    </div>
+    <button id="modal-btn">Mensagens alternativas</button>
+
+    <div id="modalNegatives" class="modal">
+      <div class="modal-content">
+        <span class="modalNegativecloseBtn">&times;</span>
+        <h2>Lista de Envios Mal-sucedidos</h2>
+        <ul id="lista-falha-envios"></ul>
+      </div>
+    </div>
+    
+
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Adicionar Mensagens</h2>
+        <input type="text" id="message-input" />
+        <button id="add-message-btn">Adicionar mensagem</button>
+        <div id="messages-container"></div>
+      </div>
+
+    </div>
+    <div id="relatorio">
+      <p>Envios bem-sucedidos: <span id="enviosBemSucedidos">0</span></p>
+      <span id="span-element">Envios Mal-sucedidos: <span id="enviosMalSucedidos">0</span></span>
+    </div>
+
+    <button class="btn">Iniciar</button>
+    <!-- <a>Precisa de ajuda?</a> -->
+  </div>
+  <script>
+    require("../js/renderer.js");
+  </script>
+</body>
+
+</html>
